@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+#main{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://img.freepik.com/free-photo/architectural-black-white-background_23-2150530948.jpg?t=st=1715199244~exp=1715202844~hmac=32cb291a6a4f13c46e9e69a691c71475cdde6a14bce21b4b1e1432654c876427&w=1060");
+    background-size: cover;
+    background-position: center;
+    }
+#nav {
+    padding:0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:100px;
+}
+#nav h5{
+    font-size: 25px;
+}
+#nav #nlinks {
+    position: absolute;
+    left:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+#nav i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(163, 136, 136);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+#nlinks{
+    display: flex;
+    gap:30px;
+}
+#nlinks a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+   border-bottom: 2px solid white;
+   padding-bottom:4px;
+   font-size: 14px;
+   font-weight:  550;
+}
+#nlinks a:hover {
+    color:rgb(252, 249, 249);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+}
+#text{
+    position:absolute;
+    top:50%;
+    left:5%;
+    transform:translate(0%,-50%);
+    
+    width:40%;
+    height:300px;
+    
+}
+#text h6{
+    display:flex;
+    color:white;
+}
+#text h6 span{
+    font-size:30px;
+    line-height: 25px;
+}
+#text h1{
+    font-size:90px;
+    color:white;
+    margin-top: 30px;
+}
+#lineandtext{
+    display: flex;
+    color:white;
+    gap:20px;
+}
+#line{
+    width:120px;
+    height:1px;
+    background-color: white;
+}
+#lineandtext p{
+    font-size:14px;
+    width:50%;
+    margin-top: -5px;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap:40px;
+    bottom:0;
+    left:0;
+    width:70%;
+    height:20%;
+    background-color: white;
+}
+#cube{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:-50px;
+    right:-50px;
+    color:rgb(255, 253, 253);
+    width:50px;
+    height:50px;
+    background-color: rgb(178, 152, 152);
+}
+#bottom .sec3 p{
+    opacity: .5;
+    font-size: 12px;
+    font-weight:700;
+}
